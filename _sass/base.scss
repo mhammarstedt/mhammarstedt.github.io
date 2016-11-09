@@ -1,3 +1,48 @@
-html, body, div, header, nav, main, section, footer {margin: 0; padding: 0;}
+/**
+ * Reset margin and padding for basic elements.
+ */
+html, body, div, header, nav, main, section,
+footer, h1, h2, h3, h4, p, ul, li, ol
+{margin: 0; padding: 0;}
 
+
+/**
+ * Some base styling for body-element.
+ */
 body {background-color: black;}
+
+/**
+ * Determining size of website.
+ */
+#wrapper {margin: 0 auto; padding: 0; max-width: 1100px; color: black;}
+
+/**
+ * Adjusting size and position for profile pic in header.
+ */
+#profpic {width: 250px; float: right; margin: 0px 40px 20px 20px;}
+
+/**
+ * Header and nav
+ */
+header {max-width: 1100px; height: 170px; background-color: #ddf7fc;
+
+    h1 {margin: 0; padding: 20px 10px 15px 40px; font-size: 50px; font-family: $font-heading;}
+
+    nav {background-color: #515151; padding: 10px 10px 10px 40px; color: white;
+
+        a {font-family: Arial; text-decoration: none; font-weight: bold; padding-right: 20px;}
+        a:link, a:visited {color: white;}
+    }
+}
+
+
+/**
+ * Main
+ */
+main {max-width: 1000px; background-color: #FFF; margin: 0 auto;}
+
+
+/**
+ * Footer
+ */
+footer {background-color: white; max-width: 1000px; margin: 0 auto; text-align: center;}
