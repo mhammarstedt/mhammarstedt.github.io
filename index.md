@@ -3,13 +3,18 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: default
+permalink: /
 ---
 
+# {{ site.author }}
 
-This is a text.
+---
 
-# This is a headline.
+Student at the Web Programmer program at Linneaus University in Kalmar.
 
-_This is some italic text._
+![alt text](/img/fb.png "Facebook") {{ site.author }}
 
+![alt text](/img/github.png "Github") mhammarstedt
+
+![alt text](/img/mail.png "Email") mirandahammarstedt@gmail.com
 

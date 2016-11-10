@@ -5,7 +5,13 @@
     <div id="wrapper">
         {% include header.html %}
         <main>
-            {{ content }}
+            {% if page.title %}
+                {{ content }}
+            {% else %}
+            <div id="contactImgs">
+                {{ content }}
+            </div>
+            {% endif %}
         </main>
         {% include footer.html %}
     </div>
