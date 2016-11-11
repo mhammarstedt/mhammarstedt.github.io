@@ -1,0 +1,28 @@
+/**
+ * Determining style for displaying blog posts in list.
+ */
+main {
+    ul {list-style: none;
+
+        li {padding: 10px; overflow: hidden; margin: 0 auto 20px auto; box-shadow: 4px 4px 10px #666; max-width: 800px;}
+
+        a {text-decoration: none; padding-left: 20px;
+
+            &:link, &:visited {color: $hover-color;}
+            &:hover, &:active {color: $base-text-color;}
+        }
+
+        img {max-width: 300px; float: left; vertical-align: middle; padding-right: 20px;}
+
+        h3 {padding-left: 20px;}
+
+        p {padding-left: 20px;}
+    }
+}
+
+/**
+ * Class 'post' for style of each blog post and id 'date' to style display of date.
+ */
+.post {border: 1px solid #000; clear: both;}
+
+#date {padding-left: 20px; font-size: 10px; font-style: italic;}

@@ -11,6 +11,10 @@ $bg-color: #f2eddb;
 $base-text-color: #383838;
 $size-ptext: 13px;
 $font-ptext: Verdana, sans-serif;
+$hover-color: #dd6193;
 
 
-@import 'base';
+@import
+    'base',
+    'blog'
+;
