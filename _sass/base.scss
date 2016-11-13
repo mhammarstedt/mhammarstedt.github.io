@@ -19,9 +19,10 @@ body {background-color: $bg-color; color: $base-text-color;}
 /**
  * Header and nav, including links
  */
-header {max-width: 1100px; height: 170px; background-color: #ddf7fc;
+header {max-width: 1100px; height: 170px; background-image: url(/img/header.jpg); background-repeat: no-repeat;
+    background-position: center;
 
-    h1 {padding: 20px 10px 15px 40px; font-size: 50px; font-family: $font-heading;}
+    h1 {padding: 20px 10px 15px 40px; font-size: 50px; font-family: $font-heading; color: $hover-color;}
 
     nav {background-color: $base-text-color; padding: 10px 10px 10px 40px; color: white;
 
@@ -43,13 +44,23 @@ header {max-width: 1100px; height: 170px; background-color: #ddf7fc;
  * Main
  */
 main {max-width: 940px; min-height: 300px; background-color: white; margin: 0 auto;
-    padding: 30px; font-family: $font-ptext; font-size: $size-ptext; box-shadow: 0px 4px 10px #666;
+    padding: 30px; font-family: $font-ptext; font-size: $size-ptext; box-shadow: 0 4px 10px #666; line-height: 1.5em;
 
     h1 {font-family: $font-heading; font-size: 35px; padding: 0 0 10px 30px; color: $base-text-color;}
 
-    h3 {font-family: $font-heading; font-size: 25px; color: $base-text-color;}
+    h3 {font-family: $font-heading; font-size: 25px; color: $base-text-color; padding: 10px 0 10px 0;}
 
     p {padding: 10px 0 10px 0;}
+
+    a {text-decoration: none; font-weight: bold;
+
+        &:link, &:visited {color: $hover-color;}
+        &:hover, &:active {color: $base-text-color;}
+    }
+
+    img {max-width: 400px; padding: 0 20px 0 20px;}
+
+    button {color: $hover-color; font-weight: bold;}
 }
 
 
