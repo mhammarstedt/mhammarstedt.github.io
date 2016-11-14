@@ -7,15 +7,11 @@ main {
         li {padding: 10px; overflow: hidden; margin: 0 auto 20px auto; box-shadow: 4px 4px 10px #666; max-width: 800px;
             background-color: $bg-color;
 
-            &:hover {background-color: $base-text-color; color: white;
-
-                h3 {color: white;}
-            }
         }
 
         a {padding-left: 20px;
 
-            &:hover, &:active {color: #FFF;}
+            &:hover, &:active {color: $base-text-color;}
         }
 
         img {max-width: 300px; float: left; vertical-align: middle; padding: 0 20px 0 0;}
@@ -31,7 +27,7 @@ main {
  */
 .post {clear: both; padding-right: 20px;}
 
-#date {padding-left: 20px; font-size: 10px; font-style: italic;}
+.date {padding-left: 20px; font-size: 10px; font-style: italic;}
 
 /**
  * Id 'blog-header' for post headers and 'blogpost' for adjusting width and paddings
