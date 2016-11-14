@@ -1,28 +1,52 @@
 /**
- * Determining style for displaying blog posts in list.
+ * Determining style for displaying blog posts in list, with links, images and headings.
  */
 main {
     ul {list-style: none;
 
-        li {padding: 10px; overflow: hidden; margin: 0 auto 20px auto; box-shadow: 4px 4px 10px #666; max-width: 800px;}
+        li {padding: 10px; overflow: hidden; margin: 0 auto 20px auto; box-shadow: 4px 4px 10px #666; max-width: 800px;
+            background-color: $bg-color;
 
-        a {text-decoration: none; padding-left: 20px;
+            &:hover {background-color: $base-text-color; color: white;
 
-            &:link, &:visited {color: $hover-color;}
-            &:hover, &:active {color: $base-text-color;}
+                h3 {color: white;}
+            }
         }
 
-        img {max-width: 300px; float: left; vertical-align: middle; padding-right: 20px;}
+        a {padding-left: 20px;
 
-        h3 {padding-left: 20px;}
+            &:hover, &:active {color: #FFF;}
+        }
+
+        img {max-width: 300px; float: left; vertical-align: middle; padding: 0 20px 0 0;}
+
+        h3 {padding: 0 0 0 20px;}
 
         p {padding-left: 20px;}
     }
 }
 
 /**
- * Class 'post' for style of each blog post and id 'date' to style display of date.
+ * Class 'post' for style of each blog post and id 'date' to style display of date. (for list with blog posts)
  */
-.post {border: 1px solid #000; clear: both;}
+.post {clear: both; padding-right: 20px;}
 
 #date {padding-left: 20px; font-size: 10px; font-style: italic;}
+
+/**
+ * Id 'blog-header' for post headers and 'blogpost' for adjusting width and paddings
+ */
+#blog-header {height: 300px; background-image: url(/img/blog/02.jpg);
+    background-position: center; background-size: cover; background-repeat: no-repeat; margin: 10px 0 20px 0;}
+
+#blogpost {padding-bottom: 20px; max-width: 900px;
+
+    h1 {padding-bottom: 0; text-align: center;}
+}
+
+/**
+ * Id 'postinfo' to stylize the info about a blog post. Class 'center' to create a centered text.
+ */
+#postinfo {font-style: italic; font-size: 12px; text-align: center;}
+
+.center {text-align: center; padding-bottom: 30px;}

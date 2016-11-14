@@ -1,15 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
-<body>
-<div id="wrapper">
-    {% include header.html %}
-    <main>
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-    </main>
-    {% include footer.html %}
+---
+layout: default
+---
+
+{% if page.image %}
+    <div id="blog-header"></div>
+{% endif %}
+<div id="blogpost">
+    <h1>{{ page.title }}</h1>
+    <div id="postinfo">
+        <p>Written on the {{ page.day }} of {{ page.month }} {{ page.year }} by {{ site.author }}</p>
+    </div>
+    {{ content }}
 </div>
-</body>
-</html>
+<a href="{{ page.url }}/blog"><button type="button">Go to top</button></a>
+<a href="{{ site.baseurl }}/blog"><button type="button">Back to blog posts</button></a>
+<hr>
+{% if page.comments %}
+    {% include disqus.html %}
+{% endif %}
 
