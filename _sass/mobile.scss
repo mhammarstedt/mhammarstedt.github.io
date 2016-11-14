@@ -1,0 +1,66 @@
+/**
+ * Media queries for mobile optimization.
+ */
+
+/* Removing box shadow */
+@media screen and (max-width: 1000px){
+    main {box-shadow: none;}
+}
+
+/* Making profpic smaller */
+@media screen and (max-width: 800px){
+    #profpic {max-width: 150px;}
+}
+
+/* Adjusting display of blog posts */
+@media screen and (max-width: 780px){
+    main {
+        ul li {
+
+            img {float: none; max-width: 100%;}
+        }
+    }
+}
+
+/* Making title smaller and changing view of blog posts */
+@media screen and (max-width: 600px){
+    header h1 {font-size: 40px;}
+
+    main {
+        ul li {
+
+            img {float: none; max-width: 100%;}
+        }
+    }
+}
+
+/* Removing header and creating mobile-friendly menu */
+@media screen and (max-width: 570px){
+    header {background-image: none;
+
+        h1 {display: none;}
+
+        nav {padding: 0;
+            ul {max-height: 170px;
+
+                li {display: block; padding: 15px 0 10px 0; border: 1px solid #000; font-size: 24px;
+                    text-align: center;}
+            }
+        }
+    }
+}
+
+/* Changing place for profilepic and adjusting menu text */
+@media screen and (max-width: 500px){
+    #profpic {display: none;}
+    #profpic_small {display: none;}
+
+    #mobile {display: block; text-align: center;
+
+        img {height: 250px; padding-bottom: 10px;}
+    }
+
+    nav ul li {padding: 0;
+        a {padding: 0;}
+    }
+}
