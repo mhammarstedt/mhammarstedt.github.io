@@ -79,11 +79,18 @@ main {max-width: 940px; min-height: 300px; background-color: white; margin: 0 au
 /*
  * Adjusting style for contact images on homepage.
  */
-#contactImgs {font-size: 14px;
+#contactImgs {font-size: 14px; padding-bottom: 40px;
 
     img {max-width: 40px; padding-right: 15px; vertical-align: middle;}
 
     p {padding-left: 60px;}
+}
+
+.latestPosts {font-size: 11px; box-shadow: none; padding: 0; margin-bottom: 0; border-bottom: 1px solid #333;
+
+    h3 {font-size: 16px;}
+
+    p {padding-bottom: 0; padding-top: 5px;}
 }
 
 /**

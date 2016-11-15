@@ -10,7 +10,7 @@ layout: default
             {% if post.image %}
             <img src="{{ site.baseurl }}/img/blog/{{ post.image }}">
             {% endif %}
-            <p id="date">Published {{ post.day }} of {{ post.month }}, {{ post.year }}</p>
+            <p class="date">Published {{ post.day }} of {{ post.month }}, {{ post.year }}</p>
             <h3>{{ post.title }}</h3>
             {{ post.excerpt }}
 
