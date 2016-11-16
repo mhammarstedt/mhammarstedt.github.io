@@ -3,7 +3,8 @@ layout: default
 ---
 
 {% if page.title == "Blog" %}
-    <h1 class="center">Blog posts</h1>
+    <h1>Blog posts</h1>
+<hr>
     <ul>
         {% for post in site.posts %}
         <li class="post">
@@ -20,4 +21,7 @@ layout: default
     </ul>
 {% else %}
     {{ content }}
+    {% if.page.comments %}
+        {% include disqus.html %}
+    {% endif %}
 {% endif %}

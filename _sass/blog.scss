@@ -7,6 +7,8 @@ main {
         li {padding: 10px; overflow: hidden; margin: 0 auto 20px auto; box-shadow: 4px 4px 10px #666; max-width: 800px;
             background-color: $bg-color;
 
+            &:first-of-type {margin-top: 20px;}
+
         }
 
         a {padding-left: 20px;
