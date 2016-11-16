@@ -50,7 +50,7 @@
     }
 }
 
-/* Changing place for profilepic and adjusting menu text */
+/* Changing place for profilepic, adjusting menu text and making links on homepage bigger */
 @media screen and (max-width: 500px){
     #profpic {display: none;}
     #profpic_small {display: none;}
@@ -62,5 +62,9 @@
 
     nav ul li {padding: 0;
         a {padding: 0;}
+    }
+
+    .latestPosts {padding-bottom: 10px;
+        a {font-size: 15px;}
     }
 }
