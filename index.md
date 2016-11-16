@@ -16,5 +16,5 @@ Student at the Web Programmer program at Linneaus University in Kalmar.
 
 ![alt text](/img/github.png "Github") mhammarstedt
 
-![alt text](/img/mail.png "Email") mirandahammarstedt@gmail.com
+![alt text](/img/mail.png "Email") {{ site.email }}
 
