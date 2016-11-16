@@ -2,7 +2,7 @@
 Creator: Miranda Hammarstedt
 Contact: mirandahammarstedt@gmail.com
 Github: mhammarstedt
-Location: Ryssby, Sweden
+Location: Ljungby, Sweden
 
 
 /* THANKS */
@@ -11,7 +11,7 @@ URL: www.lnu.se
 
 
 /* SITE */
-Last update: 2016/11/13
+Last update: 2016/11/16
 Language: English
 Standards: HTML5, CSS3
 Components: Jekyll, SASS
