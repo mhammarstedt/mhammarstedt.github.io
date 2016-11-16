@@ -94,6 +94,8 @@ main {max-width: 940px; min-height: 300px; background-color: white; margin: 0 au
  */
 .latestPosts {font-size: 11px; box-shadow: none; padding: 0; margin-bottom: 0; border-bottom: 1px solid #333;
 
+    &:first-of-type {margin-top: 0;}
+
     h3 {font-size: 16px;}
 
     p {padding-bottom: 0; padding-top: 5px;}
