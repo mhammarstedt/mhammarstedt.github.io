@@ -35,19 +35,21 @@
 }
 
 /* Removing header and creating mobile-friendly menu */
-@media screen and (max-width: 570px){
-    header {background-image: none;
+@media screen and (max-width: 590px){
+    header {background-image: none; height: 230px;
 
         h1 {display: none;}
 
         nav {padding: 0;
-            ul {max-height: 170px;
+            ul {
 
                 li {display: block; padding: 15px 0 10px 0; border: 1px solid #000; font-size: 24px;
                     text-align: center;}
             }
         }
     }
+
+    #profpic, #profpic_small {padding-top: 15px;}
 }
 
 /* Changing place for profilepic, adjusting menu text and making links on homepage bigger */
