@@ -8,7 +8,7 @@ image:  05.jpg
 comments: true
 ---
 
-As mentioned before, this website was created as a part of examination 1 in the course client-based webprogramming
+As mentioned before, this website was created as a part of examination 1 in the course client-based web programming
 at Linneaus University. With the assignment, a few questions were to be answered concerning the following subjects.
 In this post, I strive to answer them with my own thoughts and reflections on each part.
 
@@ -108,8 +108,9 @@ change constantly).
  To allow comments on my blog posts I used something called Disqus. This is an easy way of allowing comments on your
 website, simply pasting a universal code into the html on the desired page. Though, in my case, I decided to put
 the code for Disqus in a separate document in _includes. This way, I gain full control over where I want to be able
-to use comments, and can therefore include Disqus on whatever page I want to. I also added a ’comments’ variable
-in my YAML front matter for my blog posts. This allows me to choose on which posts I want to allow comments
+to use comments, and can therefore include Disqus on whatever page I want to. In this case, I actually chose to also
+include Disqus on my contact page to give visitors an alternative way of contacting me. I also added a ’comments’
+variable in my YAML front matter for my blog posts. This allows me to choose on which posts I want to allow comments
 in a quick and easy way. Now I simply check in my specified html-layout if there is a page.comments variable,
 and if not -- no Disqus! So to make it short, I have used Disqus to implement comments, but still have full
 control over where I want to allow them.
@@ -134,6 +135,6 @@ for the time being, I just see no reason as to why I would.
 
 ### Final words
 So there you have it. Thoughts and reflections on the questions for the first examination in client-based
-webprogramming. A little longer than the other blog posts (which is actually a good thing, because then I can see
+web programming. A little longer than the other blog posts (which is actually a good thing, because then I can see
 what a long blog post would look like), but I hope you still made your way through it. And with that, I hope to have
 done everything for examination 1 properly.
