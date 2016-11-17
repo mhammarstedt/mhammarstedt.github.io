@@ -72,4 +72,4 @@ If you have any further questions or thoughts, please feel free to contact me! S
 
 _Below: Storm, 2.5 years old -- Lava, 10 weeks old_
 
-![alt text](/img/storm.jpg "Storm")![alt text](/img/lava.jpg "Lava") 
+![Storm](/img/storm.jpg)![Lava](/img/lava.jpg) 

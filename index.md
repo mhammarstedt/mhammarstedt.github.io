@@ -12,9 +12,9 @@ permalink: /
 
 Student at the Web Programmer program at Linneaus University in Kalmar.
 
-![alt text](/img/fb.png "Facebook") {{ site.author }}
+![Facebook](/img/fb.png) {{ site.author }}
 
-![alt text](/img/github.png "Github") mhammarstedt
+![Github](/img/github.png) mhammarstedt
 
-![alt text](/img/mail.png "Email") {{ site.email }}
+![E-mail](/img/mail.png) {{ site.email }}
 
