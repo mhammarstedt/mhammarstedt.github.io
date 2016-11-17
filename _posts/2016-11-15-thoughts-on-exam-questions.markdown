@@ -19,7 +19,7 @@ of all (and perhaps best of all), it allows you to place your CSS in different s
 only producing one joined stylesheet at the end! That does definitely come in handy for more than one reason. It
 makes stylizing your website more organized, and will be a God-sent gift when working in group on the same project.
 Sure, you can code in separate stylesheets normally too, but that would mean you would have to link all those
-stylesheets in the head, and not just one. Of course, the downside of this system is that the joined stylesheet
+stylesheets in the head, and not just one. Of course, the downside to this system is that the joined stylesheet
 later on might be hard to find your way in and especially to debug. The different styles in your CSS might also
 sometimes be hard to separate into different files -- often different sections nearly overwrites each other and
 have strong connections.
@@ -51,7 +51,7 @@ I would say saves a lot of time and effort, and we all love when that happens.
 An approach that static site generators would not be very suitable for is a website with a layout that differs for
 each page or subject, thus defeating the purpose of using static site generators. For this, regular coding would
 do the trick a lot better. Again, static site generators are well-suited for simple design projects (or at least
-websites with a layout that's used through all pages), usually blogs, that doesn't need any databases for products
+websites with a layout that's used throughout all pages), usually blogs, that doesn't need any databases for products
 or something like it, but just contains simple information and perhaps blog posts.
 
 ### Robots.txt
