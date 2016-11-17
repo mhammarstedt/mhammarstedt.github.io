@@ -69,4 +69,11 @@
     .latestPosts {padding-bottom: 10px;
         a {font-size: 15px;}
     }
+
+    /* Removing or making padding for different elements smaller */
+    #contactImgs {
+        p {padding-left: 20px;}
+    }
+
+    main img {padding: 0;}
 }
